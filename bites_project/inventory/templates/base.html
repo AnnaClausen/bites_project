@@ -7,14 +7,14 @@
   <link rel="stylesheet" type="text/css" href="{% static 'inventory/style.css' %}" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-  <title>{% block title %}Django Delights{% endblock %}</title>
+  <title>{% block title %}Bites{% endblock %}</title>
   {% block head %}{% endblock %}
 </head>
 <body>
   <div class="app">
   <header>
     <div class="header-first-row">
-      <h1 class="title">Django Delights</h1>
+      <h1 class="title">Bites</h1>
       {% if user.is_authenticated %}
       <a class="logout" href="/logout">Logout</a>
       {% endif %}
