@@ -14,13 +14,13 @@
   <div class="app">
   <header>
     <div class="header-first-row">
-      <h1 class="title">Bites</h1>
+      <img src="{% static 'inventory/bites-logo.svg' %}" />
       {% if user.is_authenticated %}
       <a class="logout" href="/logout">Logout</a>
       {% endif %}
     </div>
     {% if user.is_authenticated %}
-      <p>Hi, {{ user.username }}!</p>
+      <p class="greeting">Hi, {{ user.username }}!</p>
       <nav class="navbar">
         {% url 'home' as home_url %}
         {% url 'ingredients' as ingredients_url %}

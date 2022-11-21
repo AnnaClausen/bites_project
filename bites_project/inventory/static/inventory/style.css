@@ -7,7 +7,7 @@ input, select {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid #503530;
     border-radius: 3px;
 }
 
@@ -16,7 +16,7 @@ hr {
 }
 
 header {
-    background-color: #FFF0E5;
+    background-color: #FAF8EB;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -85,9 +85,9 @@ form label {
 input[type=submit], button {
     border: 0px;
     width: 100%;
-    background-color: #1557FF;
+    background-color: #008037;
     border-radius: 5px;
-    color: white;
+    color: #FAF8EB;
     margin: 8px 0;
     padding: 12px 20px;
     font-size: 1em;
@@ -111,12 +111,12 @@ header p {
 .navbar a {
     text-decoration: none;
     padding: 8px 0;
-    color: #1557FF;
+    color: #008037;
     margin-right: 15px;
 }
 
 .navbar a:hover, .navbar .current-page {
-    border-bottom: solid 4px #1557FF;
+    border-bottom: solid 4px #008037;
     border-spacing: 0 15px;
     font-weight: bold;
 }
@@ -139,7 +139,7 @@ main table {
     text-align: center;
     text-decoration: none;
     border: 0px;
-    background-color: #1557FF;
+    background-color: #008037;
     border-radius: 5px;
     color: white;
     padding: 10px;
@@ -195,7 +195,7 @@ main table {
 
 a {
     text-decoration: none;
-    color: #1557FF;
+    color: #008037;
 }
 a:hover {
     font-weight: bold;
@@ -204,3 +204,4 @@ a:hover {
 main form input[type=submit] {
     width: max-content;
 }
+
