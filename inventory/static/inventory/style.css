@@ -159,6 +159,10 @@ main table {
     padding: 0;
 }
 
+.logo {
+    margin-top: 75px;
+}
+
 .menu-items > li {
     display: flex;
     flex-direction: column;
