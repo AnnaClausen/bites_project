@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/102702166/203151677-3bd70a72-3862-4c29
 
 3. Navigate to [this url](http://localhost:8000/).
 
-* Enter user login information below: 
+4. Enter user login information below: 
 
 **Username**: `bitesadmin`
 
